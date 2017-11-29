@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [CharityJob]">
+  <listeners>
+    <listener class-name="com.charityproject.ExtentReportListner.ExtendReportNG"/>
+  </listeners>
+  <test name="CharityJob app  Testcases(failed)">
+    <classes>
+      <class name="com.charityproject.Test.HomePage_Test">
+        <methods>
+          <include name="tear"/>
+          <include name="Teardown"/>
+          <include name="clickOnSignInButtontest"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.charityproject.Test.HomePage_Test -->
+    </classes>
+  </test> <!-- CharityJob app  Testcases(failed) -->
+</suite> <!-- Failed suite [CharityJob] -->

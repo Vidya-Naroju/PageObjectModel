@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="CharityJob"  parallel="none">
+
+<listeners>
+<listener class-name="com.charityproject.ExtentReportListner.ExtendReportNG"></listener>
+</listeners>
+	
+	<!-- <parameter name="url" value="www.charityjob.co.uk"/>
+	<parameter name="browser" value="firefox"/> -->
+		<test  name="CharityJob app  Testcases">
+		<classes>
+			
+			<class name="com.charityproject.Test.JobSearch_Test"></class> 
+			<class name="com.charityproject.Test.Courses_Test" ></class>
+			<class name="com.charityproject.Test.HomePage_Test" ></class>
+			
+		</classes>
+	</test>
+</suite>
